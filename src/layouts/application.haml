@@ -1,0 +1,19 @@
+!!! 5
+%html
+  %head
+    = partial('shared/layout/head')
+    
+/ blueprint layout http://pehbehbeh.de/webentwicklung/html-css/ein-einfaches-blog-geruest-mit-dem-blueprint-css-framework-erstellen/
+  %body.container
+  
+    #header.span-24.last
+      %h1 Header
+    #content.span-16
+    
+      = yield
+      
+    #sidebar.span-8.last
+      = partial('shared/layout/sidebar')
+    #footer.span-24.last
+      = partial('shared/layout/footer')
+    

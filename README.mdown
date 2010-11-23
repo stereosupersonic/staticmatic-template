@@ -1,0 +1,5 @@
+# StaticMatic Bootstrap
+
+with JQuery, static BlueprintCSS
+
+inspired by [Adam Stacoviak](https://github.com/adamstac/staticmatic-bootstrap)

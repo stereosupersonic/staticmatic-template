@@ -1,0 +1,12 @@
+%title
+  = page_title
+- if @page_description
+  %meta{:name => "description", :content => @page_description}
+= stylesheets   :screen, :application, :media => :screen
+= stylesheets :print, :media => :print
+/[if lt IE 8]
+  = stylesheets :ie, :media => 'screen, projection'
+= javascripts('http://www.google.com/jsapi')
+:javascript
+  google.load("jquery", "1.4.2");
+= javascripts('modernizr-1.5.min', 'application')

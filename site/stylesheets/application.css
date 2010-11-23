@@ -1,0 +1,44 @@
+a.button {
+  display: block;
+  float: left;
+  padding: 10px;
+  padding-left: 35px;
+  margin: 10px;
+}
+
+a.button:hover {
+  background-color: #dae4ee;
+  text-decoration: none;
+ }
+ 
+ a.button.cancel {
+ 	background: url(/images/cancel.png) no-repeat 5px 50%;
+ }
+
+ a.button.edit {
+ 	background: url(/images/edit.png) no-repeat 5px 50%;
+ }
+
+ a.button.add {
+ 	background: url(/images/add.png) no-repeat 5px 50%;
+ }
+
+ a.button.delete {
+ 	background: url(/images/delete.png) no-repeat 5px 50%;
+ }
+/* Navigation */
+
+
+
+/* Round corners */
+
+.round {
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
+}
+
+
+.edit_artist input[type="text"], input[type="password"], input.text, input.title, textarea, select {
+    width: 450px;
+}
